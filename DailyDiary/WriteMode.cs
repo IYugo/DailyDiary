@@ -4,7 +4,7 @@
             // 날짜, 시간 받기
             string dateOnly = DateTime.Now.ToString("yyMMdd");
             //Console.WriteLine(dateOnly);
-            string writeTime = DateTime.Now.ToString("h:mm:ss tt");
+            string writeTime = DateTime.Now.ToString("tt h:mm:ss");
             //Console.WriteLine(writeTime);
 
             //Todo. 받은 날짜와 같은 날짜의 파일이 있는지 확인 >> 있으면 거따
